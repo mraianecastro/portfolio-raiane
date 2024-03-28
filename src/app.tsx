@@ -1,11 +1,14 @@
-function App() {
+import Header from "./components/Header";
+import Banner from "./components/Banner";
+import Discovery from "./components/Discovery";
+
+export function App() {
   return (
-    <h1
-      className="text-black
-   text-3xl"
-    >
-      Olá, me chamo Raiane, Front End Developer{" "}
-    </h1>
+    <>
+      <Header />
+      <Banner />
+      <Discovery />
+    </>
   );
 }
 
