@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className=" wrapper bg-neutral-950">
       <div className="adapter">
-        <div className="flex items-center justify-end p-1 mr-4 gap-24 text-center">
+        <div className="flex items-center justify-end mr-4 gap-24 text-center">
           <Button
             type="secondary"
             title="Sobre"
@@ -14,7 +14,7 @@ function Header() {
           <Button
             type="secondary"
             title="Projetos"
-            onClick={() => scrollToSection("services")}
+            onClick={() => scrollToSection("projects")}
           />
 
           <Button

@@ -3,17 +3,17 @@ import Button from "./Button";
 
 function Banner() {
   return (
-    <div className="wrapper">
+    <div className="wrapper" id="about">
       <div className="adapter">
-        <div className=" flex flex-col absolute text-white items-center justify-center">
-          <div className="max-w-xl">
+        <div className=" flex flex-col absolute text-white items-center justify-center mx-10 my-24 ">
+          <div>
             <h1 className=" flex flex-col text-4xl text-white p-2">
               Olá,
               <span>
                 me chamo <span className="text-cyan-400">Raiane</span>,
               </span>{" "}
               Desenvolvedora Front End{" "}
-              <span className="text-base p-2">
+              <span className="text-base pt-2 max-w-[70%]">
                 Atualmente, me encontro aprimorando minhas habilidades em React,
                 amo constuir experiências digitais interativas na web.
               </span>

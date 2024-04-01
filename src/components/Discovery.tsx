@@ -1,15 +1,23 @@
+import Button from "./Button";
+
 function Discovery() {
   return (
-    <div className="wrapper">
-      <div className="adapter flex flex-col bg-neutral-950 text-white">
-        <h1 className="text-3xl">
-          {" "}
-          <span className="text-cyan-400">Habilidades</span> e ferramentas
-        </h1>
-        <p className="">
-          Para uma visão geral mais detalhada, sinta-se à vontade para verificar
-          as ferramentas que foram usadas por projeto.
-        </p>
+    <div className="wrapper bg-neutral-950">
+      <div className="adapter">
+        <div className="flex py-8 gap-20 items-center justify-center">
+          <p className="text-white text-3xl font-bold">
+            Você tem um projeto em mente?
+          </p>
+          <div className="text-white">
+            <Button
+              type="tertiary"
+              title="Entre em contato comigo!"
+              onClick={() => {
+                window.open("#");
+              }}
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
