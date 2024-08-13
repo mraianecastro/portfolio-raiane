@@ -10,7 +10,7 @@ function Button({ title, onClick, type = "primary" }: Props) {
   if (type === "primary") {
     classesBotao += "";
   } else if (type === "secondary") {
-    classesBotao += "text-white bg-neutral-950  p-2 ";
+    classesBotao += "text-white bg-neutral-950 px-8 py-2 ";
   } else if (type === "tertiary") {
     classesBotao += "border border-cyan-400 p-4 bg-neutral-950";
   }

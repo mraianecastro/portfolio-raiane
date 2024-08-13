@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className=" wrapper bg-neutral-950">
       <div className="adapter">
-        <div className="flex items-center justify-end mr-4 gap-24 text-center">
+        <div className="flex items-center justify-end mr-4 text-center md:gap-24">
           <Button
             type="secondary"
             title="Sobre"

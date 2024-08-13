@@ -12,7 +12,7 @@ function Banner() {
               <span>
                 me chamo <span className="text-cyan-400">Raiane</span>,
               </span>{" "}
-              Desenvolvedora Front End{" "}
+              sou Desenvolvedora Front End{" "}
               <span className="text-base pt-2 max-w-[70%]">
                 Atualmente, me encontro aprimorando minhas habilidades em React,
                 amo constuir experiências digitais interativas na web.
@@ -24,7 +24,10 @@ function Banner() {
                 type="tertiary"
                 title="Entre em contato!"
                 onClick={() => {
-                  window.open("#");
+                  window.open(
+                    "http://linkedin.com/in/raianecastrodemoura",
+                    "_blank"
+                  );
                 }}
               />
             </div>

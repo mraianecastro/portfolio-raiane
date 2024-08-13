@@ -1,10 +1,10 @@
-import Código from "../assets/Código.webp";
+import Códigos from "../assets/Design-sem-nome-transformed.webp";
 
 function About() {
   return (
-    <div className="wrapper bg-neutral-950">
+    <div className="wrapper bg-neutral-900">
       <div className="adapter">
-        <div className="flex flex-col md:flex-row py-8 items-center justify-center mx-10 ">
+        <div className="flex flex-col md:flex-row py-8 items-center mx-10">
           <div className=" text-white max-w-xl">
             <h1 className="text-3xl">
               {" "}
@@ -15,11 +15,9 @@ function About() {
               verificar as ferramentas que foram usadas por projeto.
             </p>
           </div>
-          <img
-            className="h-[500px] object-contain pt-8"
-            src={Código}
-            alt="Imagem de Código"
-          />
+          <div className=" flex py-8 gap-6 items-center">
+            <img className="h-[250px] object-cover" src={Códigos} alt="" />
+          </div>
         </div>
       </div>
     </div>

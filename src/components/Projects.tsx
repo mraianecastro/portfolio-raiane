@@ -4,11 +4,11 @@ import Button from "./Button";
 
 function Projects() {
   return (
-    <div className="wrapper bg-neutral-900" id="projects">
+    <div className="wrapper bg-neutral-950" id="projects">
       <div className="adapter">
-        <div className="flex flex-col md:flex-row text-white items-center justify-center py-8 mx-10 ">
+        <div className="flex flex-col text-white items-center py-8">
           <div className="pb-6 text-center">
-            <h1 className="text-center text-3xl pb-6">
+            <h1 className="text-center text-3xl pb-6 mx-10">
               Dê uma olhada nos meus projetos!
             </h1>
 
@@ -16,21 +16,24 @@ function Projects() {
               type="tertiary"
               title="Acesse meu Site!"
               onClick={() => {
-                window.open("#");
+                window.open("https://missiones.vercel.app/");
               }}
             />
           </div>
-          <div className="grid grid-cols-2 ">
-            <div className="">
-              <img className="object-cover " src={Site} alt="Site Jardinagem" />
-            </div>
+          <div className="flex flex-col md:flex-row gap-4">
             <img
-              className=" h-[200px] object-contain"
+              className=" h-[200px] object-cover"
+              src={Site}
+              alt="Site Jardinagem"
+            />
+
+            <img
+              className=" h-[200px] object-cover"
               src={Breve}
               alt="Em breve!"
             />
             <img
-              className="h-[200px] object-contain"
+              className="h-[200px] object-cover"
               src={Breve}
               alt="Em breve!"
             />
