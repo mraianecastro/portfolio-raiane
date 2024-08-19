@@ -4,7 +4,7 @@ function Discovery() {
   return (
     <div className="wrapper bg-neutral-900">
       <div className="adapter">
-        <div className="flex py-8 px-8 md:gap-10 items-center justify-center">
+        <div className="flex py-8 px-8 items-center justify-center flex-col md:flex-row gap-8 md:gap-10">
           <p className="text-white text-3xl font-bold">
             Você tem um projeto em mente?
           </p>

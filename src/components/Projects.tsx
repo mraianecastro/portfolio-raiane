@@ -7,10 +7,10 @@ function Projects() {
     <div className="wrapper bg-neutral-950" id="projects">
       <div className="adapter">
         <div className="flex flex-col text-white items-center py-8">
-          <div className="pb-6 text-center">
-            <h1 className="text-center text-3xl pb-6 mx-10">
+          <div className="flex flex-col p-8 md:gap-10 items-center justify-center md:flex-row">
+            <h2 className="items-center text-3xl mb-8 text-center md:mb-0">
               Dê uma olhada nos meus projetos!
-            </h1>
+            </h2>
 
             <Button
               type="tertiary"
@@ -20,20 +20,20 @@ function Projects() {
               }}
             />
           </div>
-          <div className="flex flex-col md:flex-row gap-4">
+          <div className="flex flex-wrap gap-4 w-full justify-between">
             <img
-              className=" h-[200px] object-cover"
+              className="mx-auto w-[350px] h-[200px] object-cover"
               src={Site}
               alt="Site Jardinagem"
             />
 
             <img
-              className=" h-[200px] object-cover"
+              className="mx-auto w-[350px] h-[200px] object-cover"
               src={Breve}
               alt="Em breve!"
             />
             <img
-              className="h-[200px] object-cover"
+              className="mx-auto w-[350px] h-[200px] object-cover"
               src={Breve}
               alt="Em breve!"
             />

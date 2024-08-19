@@ -5,21 +5,21 @@ function Banner() {
   return (
     <div className="wrapper" id="about">
       <div className="adapter">
-        <div className=" flex flex-col absolute text-white items-center justify-center mx-10 my-24 ">
+        <div className=" flex absolute text-white items-center justify-center mx-10 my-24 max-h-56 pt-8">
           <div>
-            <h1 className=" flex flex-col text-4xl text-white p-2">
+            <h1 className=" flex flex-col text-4xl text-white">
               Olá,
               <span>
                 me chamo <span className="text-cyan-400">Raiane</span>,
               </span>{" "}
-              sou Desenvolvedora Front End{" "}
-              <span className="text-base pt-2 max-w-[70%]">
+              Desenvolvedora Front End{" "}
+              <span className="text-base pt-2 max-w-[70%] mb-8 md:mb-0">
                 Atualmente, me encontro aprimorando minhas habilidades em React,
                 amo constuir experiências digitais interativas na web.
               </span>
             </h1>
 
-            <div className="p-2">
+            <div className="pt-2">
               <Button
                 type="tertiary"
                 title="Entre em contato!"
